@@ -2,28 +2,13 @@
 
 MY FINAL PROJECT @ INCUBATOR LITA TRAINING
 
-Project Overview
-
-Data Analysis Process
-
-Data Analysis Tools
-
-Data Cleaning and Preparations
-
-Exploratory Data Analysis
-
-Data Visualization
-
-Data Analysis
-
 ###Project Overiew
 
-The Project contains two (2) Datasets namely:
+The Project contains a Dataset namely:
 
 - Sales Data
--  Customer Data
 
-In Project 1: Sales Performance Analysis for a Retail Store
+In Project : Sales Performance Analysis for a Retail Store
 I am tasked with analyzing the sales performance of a retail store using the following Data Analysis tools:
 i. Microsoft Excel 
 ii. Structured Query Language
@@ -51,11 +36,58 @@ c. Total Sales by Month
 d. Top-Selling Product
 e. Average Sales by Product
 
-![Screenshot (17)](https://github.com/user-attachments/assets/9fa86501-5320-4713-87b3-ffef98bb6ada)
+    TOTAL SALES BY PRODUCT	
+Row Labels	Sum of Revenue
+Gloves	296,900
+Hat	316,195
+Jacket	208,230
+Shirt	485,600
+Shoes	613,380
+Socks	180,785
+Grand Total	2,101,090
+![image](https://github.com/user-attachments/assets/7963cdb4-7c12-42b1-9cd2-ccbadd9777e0)
 
-I also imcluded some Pivot Charts just to explore more
+  TOTAL SALES BY REGION	
+Row Labels	Sum of Revenue
+East	485,925
+North	387,000
+South	927,820
+West	300,345
+Grand Total	2,101,090
+![image](https://github.com/user-attachments/assets/62d091fe-949b-4a42-9cef-f7c233e40246)
 
-![Screenshot (20)](https://github.com/user-attachments/assets/d573fdfe-425a-4fad-a2fa-ebe6a8bc41d7)
+    TOTAL SALES BY MONTH	
+Row Labels	Sum of Revenue
+2023	
+Jan	49,600
+Feb	247,500
+Mar	52,395
+Apr	7,425
+May	59,640
+Jun	99,400
+Jul	237,600
+Aug	29,880
+Sep	34,720
+Oct	133,920
+Nov	103,950
+Dec	49,300
+2024	
+Jan	198,400
+Feb	298,800
+Mar	54,780
+Apr	39,440
+May	44,640
+Jun	148,200
+Jul	37,200
+Aug	174,300
+Grand Total	2,101,090
+![image](https://github.com/user-attachments/assets/152c0c59-2be6-4fe3-b148-1fa77a5f10a2)
+
+
+
+
+
+
 
 
 
