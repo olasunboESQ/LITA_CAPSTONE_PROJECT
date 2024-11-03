@@ -42,99 +42,31 @@ c. Total Sales by Month
 d. Top-Selling Product
 e. Average Sales by Product
 
-       TOTAL SALES BY PRODUCT	
-Products	Sum of Revenue
-Gloves	296,900
-Hat	316,195
-Jacket	208,230
-Shirt	485,600
-Shoes	613,380
-Socks	180,785
-Grand Total	2,101,090
+          TOTAL SALES BY PRODUCT	
 ![image](https://github.com/user-attachments/assets/de5a50f4-f34f-4a56-a27f-6c69a39fae66)
 
-    TOTAL SALES BY REGION	
-Regions	Sum of Revenue
-East	485,925
-North	387,000
-South	927,820
-West	300,345
-Grand Total	2,101,090
+         TOTAL SALES BY REGION	
 ![image](https://github.com/user-attachments/assets/2b3e18a2-0533-4039-b23c-51fff26718e5)
 
 
-      TOTAL SALES BY MONTH	
-Months	Sum of Revenue
-2023	
-Jan	49,600
-Feb	247,500
-Mar	52,395
-Apr	7,425
-May	59,640
-Jun	99,400
-Jul	237,600
-Aug	29,880
-Sep	34,720
-Oct	133,920
-Nov	103,950
-Dec	49,300
-2024	
-Jan	198,400
-Feb	298,800
-Mar	54,780
-Apr	39,440
-May	44,640
-Jun	148,200
-Jul	37,200
-Aug	174,300
-Grand Total	2,101,090
+         TOTAL SALES BY MONTH	
 ![image](https://github.com/user-attachments/assets/786dcd11-3d6b-4e58-afb3-d0c3aa2dd5ac)
 
 
-
-TOP SELLING PRODUCT BY REVENUE		
-Products	Sum of Revenue	
-Shoes	613,380	
-Shirt	485,600	
-Hat	316,195	
-Grand Total	1,415,175			
+        TOP SELLING PRODUCT BY REVENUE					
 ![image](https://github.com/user-attachments/assets/6947daa6-a0cf-4760-b313-f58ebc403ac4)
 
 
-
-TOP SELLING PRODUCT	
-Product	Sum of Quantity
-Hat	15,929
-Grand Total	15,929
+        TOP SELLING PRODUCT	
 ![image](https://github.com/user-attachments/assets/db5ab314-e904-419b-9f0c-e14567f14cfc)
 
 
-AVERAGE SALE PER PRODUCT BY REVENUE		
-	Values	
-Products	Sum of Revenue	Average of Revenue2
-Gloves	296,900	200
-Hat	316,195	159
-Jacket	208,230	140
-Shirt	485,600	327
-Shoes	613,380	309
-Socks	180,785	122
-Grand Total	2,101,090	212
+          AVERAGE SALE PER PRODUCT BY REVENUE		
 ![image](https://github.com/user-attachments/assets/fb6c2837-1dd0-411b-81f0-fb636aa067c6)
 
 
-
-AVERAGE SALES PER PRODUCT		
-	Values	
-Products	Sum of UnitPrice	Average of UnitPrice2
-Gloves	34,635	23
-Hat	42,325	21
-Jacket	62,025	42
-Shirt	54,520	37
-Shoes	69,540	35
-Socks	27,215	18
-Grand Total	290,260	29
+         AVERAGE SALES PER PRODUCT		
 ![image](https://github.com/user-attachments/assets/5e6c2630-bcf2-4e22-b185-a9aca8235802)
-
 
 
 ### Structured Query Language
@@ -172,10 +104,19 @@ SELECT sum(revenue) as totalsale4jacket  FROM SalesData WHERE PRODUCT = 'JACKET'
 
 
 
+- Find The Number Of Sales Transactions In Each Region.
+
+SELECT REGION,
+count(orderid)as regionalsales from [dbo].[SalesData] 
+GROUP BY REGION
+ORDER BY regionalsales DESC
 
 
+- HIGHEST SELLING PRODUCT BY TOTAL SALES VALUE
 
-
+select top 1 (product),
+sum (revenue) as totalsales from [dbo].[SalesData]
+group by product
 
 
 
