@@ -24,17 +24,45 @@ The Project contains two (2) Datasets namely:
 -  Customer Data
 
 In Project 1: Sales Performance Analysis for a Retail Store
-I am tasked with analyzing the sales performance of a retail store. Using the following 
-You will need to explore sales data to uncover key insights such as top-selling products, regional
-performance, and monthly sales trends. The goal is to produce an interactive Power BI
+I am tasked with analyzing the sales performance of a retail store using the following Data Analysis tools:
+i. Microsoft Excel 
+ii. Structured Query Language
+iii. Microsoft PowerBI
+
+I am to explore the Sales Data to uncover key insights such as top-selling products, regional
+performance, and monthly sales trends. With my Excel tool i will 
+- Perform an initial exploration of the sales data.
+- Use pivot tables to summarize; Total sales by product, region, and month.
+- Use Excel formulas to calculate metrics such as average sales per product and total revenue by region.
+- Create any other interesting report.
+  
+###OUTCOME OF PROJECT 1(SALES DATA) USING MICROSOFT EXCEL 
+
+The first thing I did was to calculate the revenue for each of the row on the Saled Dataset by multiplying the Quantity row by the UnitPrice row
+F2*G2= REVENUE
+I then proceed to use the AverageIf function to calculate the avearge sales per product and Sumif to calculate total revenue for region
+
+![Screenshot (15)](https://github.com/user-attachments/assets/6b361139-27fb-49a5-8d1a-359eec088c9b)
+
+I thereaffter went on to use Pivot Table to create beautiful and interesting reports showcasing 
+a. Total Sales by Product
+b. Total Sales by Region
+c. Total Sales by Month
+d. Top-Selling Product
+e. Average Sales by Product
+
+![Screenshot (17)](https://github.com/user-attachments/assets/9fa86501-5320-4713-87b3-ffef98bb6ada)
+
+I also imcluded some Pivot Charts just to explore more
+
+![Screenshot (20)](https://github.com/user-attachments/assets/d573fdfe-425a-4fad-a2fa-ebe6a8bc41d7)
+
+
+
+The goal is to produce an interactive Power BI
 dashboard that highlights these findings.
 Instructions:
-1. Excel:
-o Perform an initial exploration of the sales data. Use pivot tables to summarize
-total sales by product, region, and month.
-o Use Excel formulas to calculate metrics such as average sales per product and
-total revenue by region.
-o Create any other interesting report
+
 2. SQL:
 Hint – You need to load the dataset into your SQL Server environment to write and
 validate your queries.
