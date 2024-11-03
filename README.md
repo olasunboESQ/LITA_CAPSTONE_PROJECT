@@ -75,16 +75,16 @@ This is the second Analysis tool I used in exploring the Sales Dataset in this p
 
 I used the SQL Tool to answer the following questions after I had successfully imported my data into a database i created which I named LITA_DB.
 
-o retrieve the total sales for each product category.
-o find the number of sales transactions in each region.
-o find the highest-selling product by total sales value.
-o calculate total revenue per product.
-o calculate monthly sales totals for the current year.
-o find the top 5 customers by total purchase amount.
-o calculate the percentage of total sales contributed by each region.
-o identify products with no sales in the last quarter.
+- retrieve the total sales for each product category.
+- find the number of sales transactions in each region.
+- find the highest-selling product by total sales value.
+- calculate total revenue per product.
+- calculate monthly sales totals for the current year.
+- find the top 5 customers by total purchase amount.
+- calculate the percentage of total sales contributed by each region.
+- identify products with no sales in the last quarter.
 
-I ran various codes in order to be able to extract the neccesary information i meeded which are embedded in the Salesdata Table on my LITA_DB
+I ran various codes in order to be able to extract the neccesary information i needed which are embedded in the Salesdata Table on my LITA_DB
 
 ```sql
 select *from[dbo].[SalesData]
