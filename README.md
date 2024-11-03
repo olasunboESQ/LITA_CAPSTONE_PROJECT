@@ -2,13 +2,13 @@
 
 MY FINAL PROJECT @ INCUBATOR LITA TRAINING
 
-###Project Overiew
+### Project Overiew
 
-The Project contains a Dataset namely:
+This Project contains a Dataset namely:
 
 - Sales Data
 
-In Project : Sales Performance Analysis for a Retail Store
+This is a Sales Performance Analysis for a Retail Store
 I am tasked with analyzing the sales performance of a retail store using the following Data Analysis tools:
 i. Microsoft Excel 
 ii. Structured Query Language
@@ -21,11 +21,20 @@ performance, and monthly sales trends. With my Excel tool i will
 - Use Excel formulas to calculate metrics such as average sales per product and total revenue by region.
 - Create any other interesting report.
   
-###OUTCOME OF PROJECT 1(SALES DATA) USING MICROSOFT EXCEL 
+### OUTCOME OF PROJECT 1(SALES DATA) USING MICROSOFT EXCEL 
 
-The first thing I did was to calculate the revenue for each of the row on the Saled Dataset by multiplying the Quantity row by the UnitPrice row
-F2*G2= REVENUE
-I then proceed to use the AverageIf function to calculate the avearge sales per product and Sumif to calculate total revenue for region
+The first thing I did was to calculate the revenue for each of the row on the Sale Dataset by multiplying the Quantity row by the UnitPrice row
+
+
+
+For the result i got from the dataset worked on
+
+[githubsales.xlsx](https://github.com/user-attachments/files/17611792/githubsales.xlsx)
+
+[githubcust.xlsx](https://github.com/user-attachments/files/17611797/githubcust.xlsx)
+
+
+
 
 ![Screenshot (15)](https://github.com/user-attachments/assets/6b361139-27fb-49a5-8d1a-359eec088c9b)
 
