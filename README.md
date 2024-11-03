@@ -25,28 +25,25 @@ performance, and monthly sales trends. With my Excel tool i will
 
 The first thing I did was to calculate the revenue for each of the row on the Sale Dataset by multiplying the Quantity row by the UnitPrice row
 
-
-
 For the result i got from the dataset worked on
 
 [githubsales.xlsx](https://github.com/user-attachments/files/17611792/githubsales.xlsx)
 
-[githubcust.xlsx](https://github.com/user-attachments/files/17611797/githubcust.xlsx)
 
-
-
+For easier visualization I added a screenshoot of my outcome
 
 ![Screenshot (15)](https://github.com/user-attachments/assets/6b361139-27fb-49a5-8d1a-359eec088c9b)
 
 I thereaffter went on to use Pivot Table to create beautiful and interesting reports showcasing 
+
 a. Total Sales by Product
 b. Total Sales by Region
 c. Total Sales by Month
 d. Top-Selling Product
 e. Average Sales by Product
 
-    TOTAL SALES BY PRODUCT	
-Row Labels	Sum of Revenue
+       TOTAL SALES BY PRODUCT	
+Products	Sum of Revenue
 Gloves	296,900
 Hat	316,195
 Jacket	208,230
@@ -54,19 +51,20 @@ Shirt	485,600
 Shoes	613,380
 Socks	180,785
 Grand Total	2,101,090
-![image](https://github.com/user-attachments/assets/7963cdb4-7c12-42b1-9cd2-ccbadd9777e0)
+![image](https://github.com/user-attachments/assets/de5a50f4-f34f-4a56-a27f-6c69a39fae66)
 
-  TOTAL SALES BY REGION	
-Row Labels	Sum of Revenue
+    TOTAL SALES BY REGION	
+Regions	Sum of Revenue
 East	485,925
 North	387,000
 South	927,820
 West	300,345
 Grand Total	2,101,090
-![image](https://github.com/user-attachments/assets/62d091fe-949b-4a42-9cef-f7c233e40246)
+![image](https://github.com/user-attachments/assets/2b3e18a2-0533-4039-b23c-51fff26718e5)
 
-    TOTAL SALES BY MONTH	
-Row Labels	Sum of Revenue
+
+      TOTAL SALES BY MONTH	
+Months	Sum of Revenue
 2023	
 Jan	49,600
 Feb	247,500
@@ -90,24 +88,61 @@ Jun	148,200
 Jul	37,200
 Aug	174,300
 Grand Total	2,101,090
-![image](https://github.com/user-attachments/assets/152c0c59-2be6-4fe3-b148-1fa77a5f10a2)
+![image](https://github.com/user-attachments/assets/786dcd11-3d6b-4e58-afb3-d0c3aa2dd5ac)
 
 
 
+TOP SELLING PRODUCT BY REVENUE		
+Products	Sum of Revenue	
+Shoes	613,380	
+Shirt	485,600	
+Hat	316,195	
+Grand Total	1,415,175			
+![image](https://github.com/user-attachments/assets/6947daa6-a0cf-4760-b313-f58ebc403ac4)
 
 
 
+TOP SELLING PRODUCT	
+Product	Sum of Quantity
+Hat	15,929
+Grand Total	15,929
+![image](https://github.com/user-attachments/assets/db5ab314-e904-419b-9f0c-e14567f14cfc)
+
+
+AVERAGE SALE PER PRODUCT BY REVENUE		
+	Values	
+Products	Sum of Revenue	Average of Revenue2
+Gloves	296,900	200
+Hat	316,195	159
+Jacket	208,230	140
+Shirt	485,600	327
+Shoes	613,380	309
+Socks	180,785	122
+Grand Total	2,101,090	212
+![image](https://github.com/user-attachments/assets/fb6c2837-1dd0-411b-81f0-fb636aa067c6)
 
 
 
-The goal is to produce an interactive Power BI
-dashboard that highlights these findings.
-Instructions:
+AVERAGE SALES PER PRODUCT		
+	Values	
+Products	Sum of UnitPrice	Average of UnitPrice2
+Gloves	34,635	23
+Hat	42,325	21
+Jacket	62,025	42
+Shirt	54,520	37
+Shoes	69,540	35
+Socks	27,215	18
+Grand Total	290,260	29
+![image](https://github.com/user-attachments/assets/5e6c2630-bcf2-4e22-b185-a9aca8235802)
 
-2. SQL:
-Hint – You need to load the dataset into your SQL Server environment to write and
-validate your queries.
-Write queries to extract key insights based on the following questions.
+
+
+### Structured Query Language
+
+This is the second Analysis tool I used in exploring the Sales Dataset in this project. SQL means standard language for accessing, managing and modifying data in a relational dtatabase.
+
+I used the SQL Tool to answer the following questions after I had successfully imported my data into a database i created which I named LITA_DB.
+
 o retrieve the total sales for each product category.
 o find the number of sales transactions in each region.
 o find the highest-selling product by total sales value.
@@ -116,6 +151,36 @@ o calculate monthly sales totals for the current year.
 o find the top 5 customers by total purchase amount.
 o calculate the percentage of total sales contributed by each region.
 o identify products with no sales in the last quarter.
+
+I ran various codes in order to be able to extract the neccesary information i meeded which are embedded in the Salesdata Table on my LITA_DB
+
+```sql
+select *from[dbo].[SalesData]
+
+........TOTAL REVENUE PER PRODUCT.......
+SELECT sum (revenue)as totalsale4hat FROM SalesData WHERE PRODUCT = 'HAT'
+
+SELECT sum(revenue) as totalsale4shoes FROM SalesData WHERE PRODUCT = 'SHOES'
+
+SELECT sum(revenue) as totalsales4shirt FROM SalesData WHERE PRODUCT = 'SHIRT'
+
+SELECT sum(revenue) as totalsales4gloves FROM SalesData WHERE PRODUCT = 'GLOVES'
+
+SELECT sum(revenue)as totalsales4socks FROM SalesData WHERE PRODUCT = 'SOCKS'
+
+SELECT sum(revenue) as totalsale4jacket  FROM SalesData WHERE PRODUCT = 'JACKET'
+
+
+
+
+
+
+
+
+
+
+
+
 3. Power BI:
 o Create a dashboard that visualizes the insights found in Excel and SQL. The
 dashboard should include a sales overview, top-performing products, and
