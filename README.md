@@ -1,4 +1,4 @@
-# LITA_CAPSTONE_PROJECT
+# LITA_CAPSTONE_PROJECT SALES DATA
 
 MY FINAL PROJECT @ INCUBATOR LITA TRAINING
 
@@ -24,6 +24,11 @@ performance, and monthly sales trends. With my Excel tool i will
 ### OUTCOME OF PROJECT 1(SALES DATA) USING MICROSOFT EXCEL 
 
 The first thing I did was to calculate the revenue for each of the row on the Sale Dataset by multiplying the Quantity row by the UnitPrice row
+
+```excel
+=F2*GS
+
+```
 
 For the result i got from the dataset worked on
 
@@ -61,12 +66,22 @@ e. Average Sales by Product
 ![image](https://github.com/user-attachments/assets/db5ab314-e904-419b-9f0c-e14567f14cfc)
 
 
-          AVERAGE SALE PER PRODUCT BY REVENUE		
+         AVERAGE SALE PER PRODUCT BY REVENUE		
 ![image](https://github.com/user-attachments/assets/fb6c2837-1dd0-411b-81f0-fb636aa067c6)
 
 
-         AVERAGE SALES PER PRODUCT		
+        AVERAGE SALES PER PRODUCT		
 ![image](https://github.com/user-attachments/assets/5e6c2630-bcf2-4e22-b185-a9aca8235802)
+
+
+Pivort Charts were also added in order for the Slaes Overview to be visualized
+
+
+![image](https://github.com/user-attachments/assets/f55a9380-14ee-4b19-9794-227cf0f4bcbe)
+
+![image](https://github.com/user-attachments/assets/c99164b6-118c-4a4b-9496-aba686d156a8)
+
+![image](https://github.com/user-attachments/assets/3004ad0d-b0fb-4972-acb2-11e8766092ea)
 
 
 ### Structured Query Language
@@ -168,36 +183,33 @@ SELECT OrderID
  dateadd (quarter, -1, getdate())
  and getdate())
 
+```
 
 
+### Microsoft Power BI
 
-3. Power BI:
-o Create a dashboard that visualizes the insights found in Excel and SQL. The
-dashboard should include a sales overview, top-performing products, and
+ This is the third Analysis Tool I used in exploration of the Sales Data. PowerBI is a business analytics service by Microsoft that enables users
+ to visualize and Analyze data from various sources. It provides interactive dashboards, reports and data visualization tools
+ to help organizations make data-driven decisions.
+
+ I am tasked to use PowerBI to:
+ 
+- Create a dashboard that visualizes the insights found in Excel and SQL. The dashboard should include a sales overview, top-performing products, and
 regional breakdowns.
-Project 2: Customer Segmentation for a Subscription Service
-Summary: This project involves analyzing customer data for a subscription service to identify
-segments and trends. Your goal is to understand customer behavior, track subscription types,
-and identify key trends in cancellations and renewals. The final deliverable is a Power BI
-dashboard that presents your analysis.
-Instructions:
-1. Excel:
-o Analyze customer data using pivot tables to find subscription patterns.
-o Calculate the average subscription duration and identify the most popular
-subscription types.
-o Create any other interesting reports.
-2. SQL:
-Hint – You need to load the dataset into your SQL Server environment to write
-and validate your queries.
-Write queries to extract key insights based on the following questions.
-o retrieve the total number of customers from each region.
-o find the most popular subscription type by the number of customers.
-o find customers who canceled their subscription within 6 months.
-o calculate the average subscription duration for all customers.
-o find customers with subscriptions longer than 12 months.
-o calculate total revenue by subscription type.
-o find the top 3 regions by subscription cancellations.
-o find the total number of active and canceled subscriptions.
-3. Power BI:
-o Build a Power BI dashboard that visualizes key customer segments,
-cancellations, and subscription trends. Include slicers for interactive analysis
+
+The first step I took was to get my data from Excel Workbook, transform my data and check the data quality, profile and distribution. After transfroming my data into a clean state 
+I proceeded to create the following Visuals from my dataset.
+
+
+![Screenshot (26)](https://github.com/user-attachments/assets/6d7bba5a-dd33-40fc-8185-950557ae8ac3)
+
+- Regional Performance
+- Monthly Overview of Sales for Year 2023 and 2024
+- Sum of Quantity by Product
+- Sum of Revenue by Product
+
+![Screenshot (25)](https://github.com/user-attachments/assets/a32c4e43-904d-4de9-ab56-7bae55a20a90)
+
+Slicers for Prdouct and Region was added to create and interesting report and dashboard
+
+
