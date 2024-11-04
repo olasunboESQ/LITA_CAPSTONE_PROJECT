@@ -10,7 +10,8 @@ This Project contains a Dataset namely:
 
 This is a Sales Performance Analysis for a Retail Store
 I am tasked with analyzing the sales performance of a retail store using the following Data Analysis tools:
-i. Microsoft Excel 
+
+i. Microsoft Excel [Download Here](https://www.microsoft.com)
 ii. Structured Query Language
 iii. Microsoft PowerBI
 
@@ -20,8 +21,8 @@ performance, and monthly sales trends. With my Excel tool i will
 - Use pivot tables to summarize; Total sales by product, region, and month.
 - Use Excel formulas to calculate metrics such as average sales per product and total revenue by region.
 - Create any other interesting report.
-  
-### OUTCOME OF PROJECT 1(SALES DATA) USING MICROSOFT EXCEL 
+
+## OUTCOME OF PROJECT 1(SALES DATA) USING MICROSOFT EXCEL 
 
 The first thing I did was to calculate the revenue for each of the row on the Sale Dataset by multiplying the Quantity row by the UnitPrice row
 
@@ -246,7 +247,7 @@ Slicers for Product and Region was added to create and interesting report and da
 
 
 
-### FINDINGS & RECOMMENDATIONS  
+## FINDINGS & RECOMMENDATIONS  
 
  #### Prouct Performance 
  
