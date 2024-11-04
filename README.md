@@ -1,6 +1,14 @@
-# LITA_CAPSTONE_PROJECT SALES DATA
+# PROJECT TITLE: LITA_CAPSTONE_PROJECT SALES DATA
 
-MY FINAL PROJECT @ INCUBATOR LITA TRAINING
+[Project Overiew](#project_overview)
+
+[OUTCOME OF PROJECT 1(SALES DATA) USING MICROSOFT EXCEL](#outcome_of_project_1_sales_data_using_microsoft_excel)
+
+[Structured Query Language (SQL)](#structured_query_language_sql)
+
+[Microsoft Power BI](#microsoft_power_bi)
+
+[FINDINGS & RECOMMENDATIONS](#findings_&_recommendations)
 
 ## Project Overiew
 
@@ -88,7 +96,7 @@ Pivort Charts were also added in order for the Sales Overview to be visualized
 
 
 
-## Structured Query Language
+## Structured Query Language (SQL)
 
 This is the second Analysis tool I used in exploring the Sales Dataset in this project. SQL means standard language for accessing, managing and modifying data in a relational dtatabase.
 
