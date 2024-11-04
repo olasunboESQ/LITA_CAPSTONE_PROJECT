@@ -216,3 +216,23 @@ I proceeded to create the following Visuals from my dataset.
 Slicers for Product and Region was added to create and interesting report and dashboard
 
 
+### FINDINGS AND RECOMMENDATION
+
+ ### Prouct Performance :
+ 
+ -  Hat has the highest sales with a total of 15, 929 showing a strong and steady demand.
+ - Shoes generated the most revenue with a total of 613,380.
+
+### Regional Performance:
+
+- Amongst the four (4) regions, South had the most sales with a total 927,820
+while West generated the lowest sales with a total of 300,345.
+
+### Monthly Sales Trend: 
+
+- Sales were higher in the month of February of both year 2023 and 2024 while in year 2023 April sales was
+the lowest with a total sales of 7,425 and in year 2024 July had the lowest sales with a total of 37,200.
+
+
+
+
