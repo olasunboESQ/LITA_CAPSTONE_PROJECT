@@ -38,7 +38,7 @@ performance, and monthly sales trends. With my Excel tool i will
 The first thing I did was to calculate the revenue for each of the row on the Sale Dataset by multiplying the Quantity row by the UnitPrice row
 
 ```excel
-=F2*GS
+=F2*G2
 
 ```
 
