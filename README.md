@@ -2,7 +2,7 @@
 
 MY FINAL PROJECT @ INCUBATOR LITA TRAINING
 
-### Project Overiew
+## Project Overiew
 
 This Project contains a Dataset namely:
 
@@ -87,7 +87,7 @@ Pivort Charts were also added in order for the Sales Overview to be visualized
 
 
 
-### Structured Query Language
+## Structured Query Language
 
 This is the second Analysis tool I used in exploring the Sales Dataset in this project. SQL means standard language for accessing, managing and modifying data in a relational dtatabase.
 
@@ -107,7 +107,11 @@ I ran various codes in order to be able to extract the neccesary information i n
 ```sql
 select *from[dbo].[SalesData]
 
-........TOTAL REVENUE PER PRODUCT.......
+      
+- TOTAL REVENUE PER PRODUCT
+
+```sql
+
 SELECT sum (revenue)as totalsale4hat FROM SalesData WHERE PRODUCT = 'HAT'
 
 SELECT sum(revenue) as totalsale4shoes FROM SalesData WHERE PRODUCT = 'SHOES'
@@ -120,29 +124,41 @@ SELECT sum(revenue)as totalsales4socks FROM SalesData WHERE PRODUCT = 'SOCKS'
 
 SELECT sum(revenue) as totalsale4jacket  FROM SalesData WHERE PRODUCT = 'JACKET'
 
+```
 
 - Find The Number Of Sales Transactions In Each Region.
+
+```sql
 
 SELECT REGION,
 count(orderid)as regionalsales from [dbo].[SalesData] 
 GROUP BY REGION
 ORDER BY regionalsales DESC
 
+```
 
 - HIGHEST SELLING PRODUCT BY TOTAL SALES VALUE
+
+```sql
 
 select top 1 (product),
 sum (revenue) as totalsales from [dbo].[SalesData]
 group by product
 
+```
 - TOTAL REVENUE PER PRODUCT
+
+```sql
 
 SELECT PRODUCT,
 SUM(REVENUE) AS TOTALREV FROM[dbo].[SalesData]
 GROUP BY PRODUCT
 ORDER BY TOTALREV DESC
 
+```
 - MONTHLY SALES TOTAL FOR THE CURRENT YEAR
+
+```sql
 
 SELECT MONTH (ORDERDATE)AS MONTHS,
 SUM (REVENUE) AS MONTHLYSALES
@@ -152,15 +168,21 @@ YEAR(ORDERDATE)= YEAR (GETDATE())
 GROUP BY MONTH (ORDERDATE) 
 ORDER BY MONTHS
 
+```
+
 - TOP 5 CUSTOMERS BY TOTAL PURCHASE AMOUNT
 
+  ```sql
+  
 SELECT TOP 5 (CUSTOMER_ID) AS TOPCUSTOMER,
 SUM (REVENUE) AS TOTAL_PURCHASEPRICE FROM [dbo].[SalesData] 
 GROUP BY Customer_Id 
 ORDER BY TOPCUSTOMER DESC
 
+```
 - PERCENTAGE OF TOTAL SALES CONTRIBUTED BY EACH REGION
 
+```sql
 SELECT REGION,
 SUM(REVENUE) AS TOTAL_SALES,
 (SUM(REVENUE)*100.0/(SELECT SUM(REVENUE) FROM[dbo].[SalesData]))
@@ -169,7 +191,10 @@ FROM [dbo].[SalesData]
 GROUP BY REGION
 ORDER BY PERCENTAGE_TOTAL_SALES DESC
 
+```
 - PRODUCTS WITH NO SALES IN THE LAST QUARTER
+
+```sql
 
 SELECT OrderID,
 Product 
@@ -177,6 +202,10 @@ FROM [dbo].[SalesData] WHERE OrderID  NOT IN (SELECT OrderID
 FROM [dbo].[SalesData]
 WHERE OrderDate >=
 DATEADD (QUARTER, -1,GETDATE ()))
+
+```
+
+```sql
 
 SELECT OrderID  
  FROM SalesData 
@@ -189,7 +218,7 @@ SELECT OrderID
 ```
 
 
-### Microsoft Power BI
+## Microsoft Power BI
 
  This is the third Analysis Tool I used in exploration of the Sales Data. PowerBI is a business analytics service by Microsoft that enables users
  to visualize and Analyze data from various sources. It provides interactive dashboards, reports and data visualization tools
@@ -216,22 +245,30 @@ I proceeded to create the following Visuals from my dataset.
 Slicers for Product and Region was added to create and interesting report and dashboard
 
 
-### FINDINGS AND RECOMMENDATION
 
- ### Prouct Performance :
+### FINDINGS & RECOMMENDATIONS  
+
+ #### Prouct Performance 
  
- -  Hat has the highest sales with a total of 15, 929 showing a strong and steady demand.
+ - My analysis reveals that 'Hat' has the highest sales with a total of 15,929 showing a strong and steady market demand.
  - Shoes generated the most revenue with a total of 613,380.
+ - There is room for sales improvement by conducting regular customer feedbacks in order to know why some products are raking in low sales.
 
-### Regional Performance:
+   
+#### Regional Performance
 
-- Amongst the four (4) regions, South had the most sales with a total 927,820
+- Amongst the four (4) regions in the dataset, South had the most sales with a total 927,820
 while West generated the lowest sales with a total of 300,345.
+- This shows that there need for sales awareness to be created in the West region in order to boost their sales.
 
-### Monthly Sales Trend: 
+#### Monthly Sales Trend 
 
 - Sales were higher in the month of February of both year 2023 and 2024 while in year 2023 April sales was
 the lowest with a total sales of 7,425 and in year 2024 July had the lowest sales with a total of 37,200.
+- There is need for the organization to coduct a sales poll in order to know why sales are particularly low in April of 2023 and 2024
+  this will give an insight into how sales can be boosted in those months in the coming year.
+ 
+
 
 
 
