@@ -74,14 +74,17 @@ e. Average Sales by Product
 ![image](https://github.com/user-attachments/assets/5e6c2630-bcf2-4e22-b185-a9aca8235802)
 
 
-Pivort Charts were also added in order for the Slaes Overview to be visualized
+Pivort Charts were also added in order for the Sales Overview to be visualized
 
 
-![image](https://github.com/user-attachments/assets/f55a9380-14ee-4b19-9794-227cf0f4bcbe)
+![image](https://github.com/user-attachments/assets/1473f90f-4515-4a9d-bcc9-133b36735164)
 
-![image](https://github.com/user-attachments/assets/c99164b6-118c-4a4b-9496-aba686d156a8)
 
-![image](https://github.com/user-attachments/assets/3004ad0d-b0fb-4972-acb2-11e8766092ea)
+![image](https://github.com/user-attachments/assets/beffa1c9-478b-40b1-9cc3-dad73d79fced)
+
+
+![image](https://github.com/user-attachments/assets/41e24773-78d3-4e73-9a5b-deca48cf7f05)
+
 
 
 ### Structured Query Language
@@ -210,6 +213,6 @@ I proceeded to create the following Visuals from my dataset.
 
 ![Screenshot (25)](https://github.com/user-attachments/assets/a32c4e43-904d-4de9-ab56-7bae55a20a90)
 
-Slicers for Prdouct and Region was added to create and interesting report and dashboard
+Slicers for Product and Region was added to create and interesting report and dashboard
 
 
