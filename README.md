@@ -266,12 +266,20 @@ Slicers for Product and Region was added to create and interesting report and da
  - Shoes generated the most revenue with a total of 613,380.
  - There is room for sales improvement by conducting regular customer feedbacks in order to know why some products are raking in low sales.
 
+![image](https://github.com/user-attachments/assets/a956dc78-c7e1-47d9-acfb-f30eedca61ce)
+
+![image](https://github.com/user-attachments/assets/52c73d78-bd0a-4f31-9125-c24c6a9968ab)
+
+
    
 #### Regional Performance
 
 - Amongst the four (4) regions in the dataset, South had the most sales with a total 927,820
 while West generated the lowest sales with a total of 300,345.
-- This shows that there need for sales awareness to be created in the West region in order to boost their sales.
+- This shows that there need for sales awareness e.g advertising, marketing to be created in the West region in order to boost their sales.
+   Offer Sales plan and also Easy buy plan in the West.
+![image](https://github.com/user-attachments/assets/3c4dec63-f6b4-46b1-a800-48a872c279a6)
+
 
 #### Monthly Sales Trend 
 
@@ -280,7 +288,7 @@ the lowest with a total sales of 7,425 and in year 2024 July had the lowest sale
 - There is need for the organization to coduct a sales poll in order to know why sales are particularly low in April of 2023 and 2024
   this will give an insight into how sales can be boosted in those months in the coming year.
  
-
+![image](https://github.com/user-attachments/assets/f05d7c68-7d7d-48e9-892b-3f0d84f8f995)
 
 
 
