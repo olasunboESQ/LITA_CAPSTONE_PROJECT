@@ -1,23 +1,26 @@
 # PROJECT TITLE: LITA_CAPSTONE_PROJECT SALES DATA
 
-[Project Overiew](#project_overview)
+[Project Overiew](#project-overview)
 
-[OUTCOME OF PROJECT 1(SALES DATA) USING MICROSOFT EXCEL](#outcome_of_project_1_sales_data_using_microsoft_excel)
+[Analysis Tools](#analysis-tools)
 
-[Structured Query Language (SQL)](#structured_query_language_sql)
+[OUTCOME OF SALES DATA PROJECT USING MICROSOFT EXCEL](#outcome-of-sales-data-project-using-microsoft-excel)
 
-[Microsoft Power BI](#microsoft_power_bi)
+[Structured Query Language (SQL)](#structured-query-language-sql)
 
-[FINDINGS & RECOMMENDATIONS](#findings_&_recommendations)
+[Microsoft Power BI](#microsoft-power-bi)
+
+[FINDINGS AND RECOMMENDATIONS](#findings-and-recommendations)
 
 ## Project Overiew
 
-This Project contains a Dataset namely:
+This is a Sales Performance Analysis for a Retail Store, I am tasked  with analyzing the sales performance of a retail store.
+You will need to explore sales data to uncover key insights such as top-selling products, regional
+performance, and monthly sales trends. The goal is to produce an interactive Power BI
+dashboard that highlights these findings
 
-- Sales Data
 
-This is a Sales Performance Analysis for a Retail Store
-I am tasked with analyzing the sales performance of a retail store using the following Data Analysis tools:
+## Analysis Tools
 
 i. Microsoft Excel [Download Here](https://www.microsoft.com)
 ii. Structured Query Language
@@ -30,7 +33,7 @@ performance, and monthly sales trends. With my Excel tool i will
 - Use Excel formulas to calculate metrics such as average sales per product and total revenue by region.
 - Create any other interesting report.
 
-## OUTCOME OF PROJECT 1(SALES DATA) USING MICROSOFT EXCEL 
+## OUTCOME OF SALES DATA PROJECT USING MICROSOFT EXCEL 
 
 The first thing I did was to calculate the revenue for each of the row on the Sale Dataset by multiplying the Quantity row by the UnitPrice row
 
@@ -255,7 +258,7 @@ Slicers for Product and Region was added to create and interesting report and da
 
 
 
-## FINDINGS & RECOMMENDATIONS  
+## FINDINGS AND RECOMMENDATIONS  
 
  #### Prouct Performance 
  
